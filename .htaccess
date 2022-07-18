@@ -1,0 +1,8 @@
+
+<IfModule mod_rewrite.c>
+   RewriteEngine On 
+   RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET,PUT,POST,OPTIONS,DELETE"
+Header set Access-Control-Allow-Headers "Content-Type, Authorization, Selected-Language"

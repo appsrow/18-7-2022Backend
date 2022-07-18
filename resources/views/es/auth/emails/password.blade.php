@@ -1,0 +1,1 @@
+Haga clic aquí para restablecer la contraseña: {{ url('http://example.com/password/reset/'.$token) }}
